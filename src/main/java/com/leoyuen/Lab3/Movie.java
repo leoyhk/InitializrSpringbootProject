@@ -5,34 +5,32 @@
 package com.leoyuen.Lab3;
 
 /**
- *TODO ID NAME Year Rank
- * @author konoleoda
+ * TODO ID NAME Year Rank
+ *
+ * @author Leo Yuen
  */
 public class Movie {
 
     private int id;
-    private String name ;
-     private int year;
+    private String name;
+    private int year;
     private float rank;
-   
-    public Movie(int id, String name,int year,float rank) {
+
+    public Movie(int id, String name, int year, float rank) {
         this.id = id;
-        this.name = name;    
-                this.year = year;
-                 this.rank = rank;
+        this.name = name;
+        this.year = year;
+        this.rank = rank;
     }
-    
-    
-    
 
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
-       this.id = id;
+        this.id = id;
     }
-    
+
     public String getName() {
         return name;
     }
@@ -40,22 +38,21 @@ public class Movie {
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public double getRank() {
         return rank;
     }
 
     public void setRank(Float rank) {
-       this.rank = rank;
+        this.rank = rank;
     }
-    
+
     public int getYear() {
         return year;
     }
 
     public void setYear(int year) {
-       this.year = year;
+        this.year = year;
     }
 
-    
 }
